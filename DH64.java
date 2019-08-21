@@ -4,7 +4,7 @@ public class DH64
 	private static long p = 17;
 	private static long g = 3;
 
-	private static long powmodp(long x , long n) {
+	private long powmodp(long x , long n) {
 		if (n == 0) return 1;
 		if (n == 1) return x % p;
 		long res = powmodp(x * x % p, n / 2);
