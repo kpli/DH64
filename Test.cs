@@ -20,3 +20,9 @@ class Test
 
 	}
 }
+
+
+/*nds 
+https://github.com/devkitPro/ndstool
+https://github.com/pleonex/tinke
+/*
